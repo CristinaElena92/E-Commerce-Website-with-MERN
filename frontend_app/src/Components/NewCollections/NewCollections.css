@@ -1,0 +1,29 @@
+
+
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+ 
+
+.new-collections hr{
+   width: 200px;
+   background: black;
+   border-radius: 8px;
+    
+}
+
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 20px;
+    padding: 0;
+
+}
+
+

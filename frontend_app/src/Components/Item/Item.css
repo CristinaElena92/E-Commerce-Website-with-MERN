@@ -1,8 +1,44 @@
 
+.item {
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 10px;
+    text-align: center; 
+    transition: transform 0.2s;
+}
+.item p {
+    margin: 10px; 
+    font-size: 18px; 
+    color: var(--text-color);
+   
+}
+.item img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: contain; 
+    background:var(--background-gradient)
+}
 
-.item{
-    width: 350px;
+.item-prices {
+    display: flex;
+    justify-content: space-between; 
+    margin: 5px; 
+    padding: 10px; 
 }
-.item p{
-    margin: 6px;
+
+.item-price-new {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: red;
 }
+
+.item-price-old{
+    font-size: 18px; 
+    color: gray;
+    text-decoration: line-through;
+ }
+
+ .item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+ }

@@ -6,6 +6,7 @@
     --hover-bg-color: #f3f3f3;
     --cart-bg-color: red;
     --cart-text-color: white;
+    --background-gradient: linear-gradient(180deg,#cacdb8,#e1ffea22 60%);
 }
 
 /* Navbar container */
@@ -29,7 +30,7 @@
     color: var(--primary-color);
     font-size: 38px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
 
 
 }
@@ -40,8 +41,8 @@
     align-items: center;
     list-style: none;
     gap: 20px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .nav-meniu li {
@@ -101,7 +102,7 @@
     font-weight: 500;
     background-color: var(--button-bg-color);
     cursor: pointer;
-    transition: background-color 0.3s ease; 
+    font-weight: 600;
 }
 
 .nav-login-cart button:hover {
@@ -126,7 +127,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: -30px;
     margin-left: -27px;
     border-radius: 50%;
