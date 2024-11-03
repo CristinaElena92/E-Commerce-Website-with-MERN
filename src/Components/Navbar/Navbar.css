@@ -1,0 +1,135 @@
+:root {
+    --primary-color: rgb(121, 12, 12);
+    --text-color: black;
+    --button-bg-color: white;
+    --button-border-color: black;
+    --hover-bg-color: #f3f3f3;
+    --cart-bg-color: red;
+    --cart-text-color: white;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.3); 
+}
+
+/* Logo */
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-logo p {
+    color: var(--primary-color);
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* Navigation menu */
+.nav-meniu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-meniu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+/* Styles for menu links */
+.nav-meniu li a {
+    color: var(--text-color); /* link color */
+}
+
+.nav-meniu li a:hover {
+    color: var(--primary-color); /* hover color */
+}
+
+.nav-meniu li a:visited {
+    color: var(--text-color); /* visited link color */
+}
+
+.nav-meniu li a:active {
+    color: var(--primary-color); /* active link color */
+}
+
+.nav-meniu li:hover {
+    color: var(--primary-color); 
+}
+
+.nav-meniu hr {
+    border: none;
+    width: 50%;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+/* Login and cart */
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.nav-login-cart button {
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: 2px solid var(--button-border-color);
+    border-radius: 40px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.nav-login-cart button:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.nav-login-cart button:active {
+    background: #e0e0e0;
+}
+
+/* Adjusting the size of the cart icon image */
+.nav-login-cart img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: contain; 
+}
+
+/* Cart indicator */
+.nav-cart-count {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -30px;
+    margin-left: -27px;
+    border-radius: 50%;
+    background-color: var(--cart-bg-color);
+    color: var(--cart-text-color);
+}
