@@ -1,0 +1,40 @@
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(150deg,#cacdb8,#e1ffea22 90%);
+   
+    margin-bottom: 50px;
+ }
+
+
+.footer-link,a{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    text-decoration: none; 
+    color: black;
+}
+.footer-media {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    gap: 30px; 
+    padding: 10px 0; 
+}
+
+.footer-copyright{
+    
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer-copyright hr{
+    width: 500px;
+
+}

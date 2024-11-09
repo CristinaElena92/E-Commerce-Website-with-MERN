@@ -5,6 +5,7 @@
     padding: 10px;
     text-align: center; 
     transition: transform 0.2s;
+    border: 1px solid green   ;
 }
 .item p {
     margin: 10px; 

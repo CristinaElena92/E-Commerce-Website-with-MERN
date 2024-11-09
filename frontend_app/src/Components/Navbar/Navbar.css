@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding: 8px 20px;
     box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(200deg,#cacdb8,#e1ffea22 60%);
 }
 
 /* Logo */
@@ -52,7 +53,7 @@
     justify-content: center;
     gap: 15px;
     cursor: pointer;
-    font-size: 20px; 
+    font-size: 25px; 
 }
 
 /* Styles for menu links */
@@ -91,6 +92,8 @@
     gap: 15px; 
 }
 
+
+/* Login button styles */
 .nav-login-cart button {
     width: 100px;
     height: 35px;
@@ -98,11 +101,13 @@
     border: 2px solid var(--button-border-color);
     border-radius: 40px;
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     background-color: var(--button-bg-color);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+
 }
 
 .nav-login-cart button:hover {
@@ -115,9 +120,9 @@
 
 /* Adjusting the size of the cart icon image */
 .nav-login-cart img {
-    width: 30px; 
-    height: 30px; 
-    object-fit: contain; 
+    display: flex;
+    width: 38px;
+    
 }
 
 /* Cart indicator */
@@ -128,9 +133,11 @@
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    margin-top: -30px;
-    margin-left: -27px;
-    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -18px;
+    border-radius: 30%;
     background-color: var(--cart-bg-color);
-    color: var(--cart-text-color);
+    color: black;
 }
+
+

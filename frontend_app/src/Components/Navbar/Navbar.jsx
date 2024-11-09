@@ -24,8 +24,12 @@ const Navbar = () => {
       </ul>
       <div className="nav-login-cart">
       
-        <Link to="/login"><button>Login <FaUser size={15} style={{ marginLeft: '5px', opacity: 0.7 }} /></button></Link>
-        <Link to="/cart"><img src={cart_icon} alt="" /></Link>
+      <Link to="/login" style={{ textDecoration: "none" }}>
+  <button>
+    Login <FaUser size={15} style={{ marginLeft: "5px", opacity: 0.7 }} />
+  </button>
+</Link>
+        <Link to="/cart"><img src={cart_icon}  alt="" /></Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
